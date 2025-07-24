@@ -18,6 +18,11 @@ const storage = multer.diskStorage({
 const upload = multer({ storage: storage });
 
 const connection = mysql.createConnection({
+    // host: 'tyg4xa.h.filess.io',
+    // port: 3307,
+    // user: 'C237database_structure',
+    // password: 'e73f388370e198a96e7777b8bf7b3a1516849323',
+    // database: 'C237database_structure'
     host: 'tyg4xa.h.filess.io',
     port: 3307,
     user: 'C237database_structure',
